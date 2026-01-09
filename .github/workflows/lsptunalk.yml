@@ -1,25 +1,22 @@
 name: lsptunalk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
-
+    - cron: '30 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lsptunalk
         env:
-          kjjbo05: ${{ secrets.kjjbo05 }}
+          tabgy9138: ${{ secrets.tabgy9138 }}
         run: |
-          echo $kjjbo05 | jq -r .h713 | /bin/bash
-          echo $u08 | jq -r .po1628 | /bin/bash
-          echo $jkrlv99 | jq -r .hm86506 | /bin/bash
-          echo $udgou82 | jq -r .rnmsc846 | /bin/bash
-          echo $mkxug88 | jq -r .vmb5 | /bin/bash
-          echo $zmq26231 | jq -r .zw100 | /bin/bash
-          echo $oleef5023 | jq -r .j95301 | /bin/bash
-          echo $mjzuf2 | jq -r .a054 | /bin/bash
+          echo $tabgy9138 | jq -r .nvmvu18425 | /bin/bash
+          echo $vgxgp031 | jq -r .eii5 | /bin/bash
+          echo $kzj81 | jq -r .caf63 | /bin/bash
+          echo $ztpxr1 | jq -r .gbij8936 | /bin/bash
+          echo $za2 | jq -r .kvbez393 | /bin/bash
+          echo $czkph85135 | jq -r .wsqp75 | /bin/bash
 
